@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+ 
+  
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-photo/3d-background-with-white-cubes_23-2150472987.jpg');
+  background-size: cover;
+}
+
+.form-box {
+  height: 600px;
+  width: 700px;
+  padding: 40px;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #333, #eaeaea); /* Gradient background */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333; /* Darker text color */
+}
+
+.form-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box label {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  color: #ffffff; /* Lighter text color */
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold; /* Adjust font weight */
+}
+
+
+.form-box input,
+.form-box .rdw-editor-toolbar {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  width: calc(100% - 26px); /* Adjusted width */
+  font-weight: bolder;
+ 
+}
+
+.form-box .rdw-editor-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-weight: bolder;
+}
+
+.form-box button[type="submit"] {
+  margin-top: 10px;
+  background-color: #7c7c7c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-box button[type="submit"]:hover {
+  background-color: #ffffff;
+  color: #333;
+  font-weight: bolder;
+}
+
+
+.editorWrapper {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff; /* Set background color to white */
+}
+
+.editor {
+  min-height: 100px; /* Set minimum height for the editor */
+}

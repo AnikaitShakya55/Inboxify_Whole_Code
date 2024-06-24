@@ -1,0 +1,109 @@
+.auth {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../Assests/5dfa120bbfcf78c194348826b4dcee33.jpg');
+  background-size: cover;
+  object-fit:cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(18, 18, 18, 0.6);
+}
+
+.form {
+  width: 400px; /* Increased width for a larger form */
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.form h1 {
+  margin-bottom: 1rem;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.form .control {
+  margin-bottom: 1rem;
+}
+
+.form .control label {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form .control input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form .control input:focus {
+  outline: none;
+  border-color: #73ff00;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.form .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form .toggle {
+  font-size: 0.8rem;
+  color: #666;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #1aff00;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #008700;
+}
+
+.form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+}

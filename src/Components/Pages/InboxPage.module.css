@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://img.freepik.com/free-photo/3d-background-with-white-cubes_23-2150472987.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.headingh1 {
+  position: fixed;
+  top: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #333; /* Darker text color */
+  text-decoration: none;
+  font-size: 24px; /* Adjusted font size */
+  font-weight: bold; /* Adjusted font weight */
+}
+
+.emailList {
+  position: fixed;
+  top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  font-weight: bolder;
+}
+
+p{
+  font-weight: bolder;
+}
+
+.email {
+  background-color: #fff; 
+  border: 1px solid #ddd; 
+  border-radius: 8px;
+  padding: 20px; 
+  margin: 10px; 
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease;
+  width: 80%;
+  max-width: 600px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  font-weight: bolder;
+}
+
+.email:hover {
+  background-color: #f9f9f9; 
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  right: 20px; 
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: #007bff; 
+  border-radius: 50%;
+}

@@ -1,0 +1,30 @@
+/* MessageDetail.module.css */
+
+.messageDetailContainer {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/3d-background-with-white-cubes_23-2150472987.jpg');
+  background-size: cover;
+  
+}
+
+.messageDetail {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 80%; /* Set the width of the box */
+  max-width: 600px; /* Set the maximum width of the box */
+}
+
+.messageDetailHeader {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.messageDetailItem {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,40 @@
+.profile {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+ 
+}
+.profileIcon {
+  margin-right: 100px;
+
+}
+
+.profileIconImage {
+  height: 60px;
+  width: 60px;
+
+}
+
+.profileBox {
+  position: absolute;
+  top: 40px; /* Adjust as needed */
+  right: 125px; /* Adjust as needed */
+  width: 40vh;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profileBox h3 {
+  margin-bottom: 10px;
+}
+
+.profilePic {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 10px;
+  
+}
